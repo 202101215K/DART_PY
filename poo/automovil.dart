@@ -19,4 +19,9 @@ class Automovil{
 void main(List<String> args) {
   Automovil sqrt =Automovil(modelo: "xql", placa: "xxl", anio: 2021, motor: 34, color: "verde");
   print(sqrt.color);
+  print("Color: ${sqrt.color}");
+
+
+  Automovil auto2 = new Automovil(modelo: "zz", placa: "c34", anio: 2024, motor: 44, color: "rojo");
+  print("Color: ${auto2.color}");
 }
