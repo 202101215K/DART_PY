@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 void main(List<String> args) {
   // Alternativas if , switch, operador ternario,  Operador de nulidad
